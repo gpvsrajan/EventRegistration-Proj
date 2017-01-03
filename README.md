@@ -10,9 +10,11 @@ following options:-
 6.  Show the event by id.
  
  Implemented:-
-1. Second level ehcache -cahce.
-2. @ManyToMany with seperate join table feature.
-3. Used Query level cahce too.
-4. Generate the event id using IDENTITY feature.
-5. Used EAGER fetching to fetch employee along with event detail 
+- Second level ehcache -cahce.
+- @ManyToMany with seperate join table feature.
+- Used updatable = false .
+- Used Query level cahce too.
+- Generate the event id using IDENTITY feature.
+- Used EAGER fetching to fetch employee along with event detail 
+
 
